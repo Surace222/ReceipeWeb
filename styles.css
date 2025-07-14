@@ -31,6 +31,7 @@ body{
 .content1{
 
    display: flex;
+   align-items: center;
    justify-content: space-evenly;
    /* background-color: #BB4430; */
    align-items: center;
@@ -51,6 +52,7 @@ img{
     border-radius: 8%;
     background-color: #BB4430;
     /* align-self: center; */
+    text-align: center;
 
   
 }
@@ -61,6 +63,7 @@ img{
      margin: 10px;
    padding: 10px;
    background-color: #BB4430;
+    text-align: center;
   
 
 }
@@ -70,6 +73,7 @@ img{
    padding: 10px;
     border-radius: 8%;
     background-color: #BB4430;
+     text-align: center;
    
 }
 img{
@@ -90,4 +94,5 @@ img{
     height: 30px;
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
