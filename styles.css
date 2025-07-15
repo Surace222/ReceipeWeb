@@ -96,3 +96,50 @@ img{
     justify-content: center;
     padding: 10px;
 }
+a:hover{
+    background-color: #BB4430;
+}
+
+.Details{
+    display: flex;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 370px;
+    background-color: rgb(201, 196, 196);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10%;
+}
+.details img{
+    border-radius: 0%;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+}
+.details p ,h1 ,button{
+    color: black;
+    text-align: center;
+}
+#description{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
