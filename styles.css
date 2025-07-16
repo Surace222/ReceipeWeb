@@ -28,60 +28,16 @@ body{
 #para p{
     margin-left: 20px;
 }
-.content1{
-
-   display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-   /* background-color: #BB4430; */
-   align-items: center;
-   
-   
-}
 
 img{
     height: 300px;
-    width: 400px;
-
-   
+    width: 400px;  
 }
 
-#one{
-    margin: 10px;
-   padding: 10px;
-    border-radius: 8%;
-    background-color: #BB4430;
-    /* align-self: center; */
-    text-align: center;
-
-  
-}
-
-#two{
-    
-   border-radius: 8%;
-     margin: 10px;
-   padding: 10px;
-   background-color: #BB4430;
-    text-align: center;
-  
-
-}
-
-#three{
-     margin: 10px;
-   padding: 10px;
-    border-radius: 8%;
-    background-color: #BB4430;
-     text-align: center;
-   
-}
 img{
    border-radius: 50%;
    margin-top: 10px;
-}
-
-
+   }
 
 #firstpara{
     
@@ -102,6 +58,7 @@ a:hover{
 
 .Details{
     display: flex;
+    justify-content: space-around;
 }
 
 .details{
@@ -131,6 +88,10 @@ a:hover{
     text-align: center;
 }
 
+button{
+    background-color: #231F20;
+    color: aliceblue;
+}
 
 
 
