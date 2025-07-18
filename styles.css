@@ -118,7 +118,7 @@ a:hover{
 }
 
 .details img:hover{
-    background-color: #BB4430;
+    background-color: #000000;
 }
 .details p ,h1 ,button{
     color: rgb(245, 245, 245);
@@ -129,10 +129,11 @@ a:hover{
 }
 
 button{
-    background-color: #231F20;
+    background-color: #000000;
     color: aliceblue;
     width: 200px;
     height: 40px;
+    margin-top: 10px;
 }
 
 #top {
@@ -157,6 +158,12 @@ button{
     background-color: white;
 }
 
+
+.Form{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
 
 
 
