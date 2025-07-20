@@ -104,24 +104,24 @@ a:hover{
     align-items: center;
     width: 350px;
     height: 370px;
-    background-color:#302f30;
+    background-color:#eee8e8;
     padding: 10px;
     margin: 20px;
-    border-radius: 10%;
-    border: 1px solid white;
+    /* border-radius: 10%; */
+    border: 3px solid rgb(0, 0, 0);
 }
 .details img{
     padding: 10px;
     height: 150px;
-    width: 100%;
+    width: 200px;
     border-radius: 10%;
 }
 
 .details img:hover{
-    background-color: #000000;
+    /* background-color: #000000; */
 }
 .details p ,h1 ,button{
-    color: rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 #description{
@@ -137,7 +137,7 @@ button{
 }
 
 #top {
-    color: #BB4430;
+    color: #ffffff;
     margin: 20px;
 }
 
