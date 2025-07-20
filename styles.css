@@ -117,9 +117,9 @@ a:hover{
     border-radius: 10%;
 }
 
-.details img:hover{
-    /* background-color: #000000; */
-}
+/* .details img:hover{
+    background-color: #000000;
+} */
 .details p ,h1 ,button{
     color: rgb(0, 0, 0);
     text-align: center;
@@ -159,36 +159,82 @@ button{
 }
 
 
-.Form{
-    padding-top: 20px;
-    text-align: center;
-    border: 2px solid black;
-    margin: 10px;
-    width: 500px;
+.MainForm{
+   display:flex;
+   justify-content: center;
+   /* background-color: black; */
 }
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+#formLeft{
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    /* border: 1px solid white; */
+
+
+}
+
+#formLeft h1{
+    color: white;
+
+}
+#formLeft p{
+   font-size:22px ;
+   margin: 20px;
+
+}
+
+#formLeft ul{
+   font-size:22px ;
+list-style-type: none;
+
+}
+
+#formRight{
+height: 400px;
+    width: 400px;
+    text-align: center;
+     border: 1px solid white;
+     padding: 10px;
+}
+
 input{
     height: 30px;
     width: 300px;
     margin: 10px;
     color: black;
+    padding: 5px;
 }
 
 textarea{
     color: black;
     width: 300px;
     height: 100px;
+    padding: 5px;
+    margin-top: 20px;
 }
 
 input[type=submit]{
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 30px;
+    width: 200px;
 }
 
 label{
     
       padding-left: 10px;
       padding-top: 10px;
-      float: left;
+      
 
 }
 
