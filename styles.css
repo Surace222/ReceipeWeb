@@ -162,7 +162,9 @@ button{
 .MainForm{
    display:flex;
    justify-content: center;
-   /* background-color: black; */
+  background-image: url(images/background.jpg);
+  background-size: contain;
+  background-position: center;
 }
 
 .form{
@@ -179,6 +181,7 @@ button{
     width: 400px;
     text-align: center;
     /* border: 1px solid white; */
+    padding-top: 10px;
 
 
 }
