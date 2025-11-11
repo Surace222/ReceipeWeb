@@ -143,9 +143,11 @@ button{
 
 .footer{
     display: flex;
+    /* flex-grow: 1; */
     justify-content: center;
     background-color: #000000;
     border: 1px solid white;
+    /* position: absolute; */
 }
 #foot{
     text-align: center;
@@ -248,7 +250,16 @@ label{
 }
 
 
+/* ----about--- */
+#about h1{
+    padding-top: 10px;
+color: white;
+}
 
+#connect h1{
+    padding-top: 10px;
+color: white;
+}
 
 
 
